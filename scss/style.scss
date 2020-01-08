@@ -1,7 +1,12 @@
-$pirate-fonts: "Arial, Helvetica, sans-serif sans-serif";
+$pirate-fonts: 'Kaushan Script', Arial, cursive, sans-serif;
+$pirate-font-size-tripple: 3rem;
+$pirate-font-size-double: 2rem;
+$pirate-margin-p: 0.5rem 2rem 0.5rem;
+$pirate-padding-phil: 0 0 0 350px;
 
 h1 {
   font-family: $pirate-fonts;
+  font-size: $pirate-font-size-tripple;
   font-weight: 600;
 
   color: #000;
@@ -10,3 +15,20 @@ h1 {
     color: darkmagenta;
   }
 }
+
+
+p {
+  font-family: $pirate-fonts;
+
+  font-size: $pirate-font-size-double;
+}
+
+.quote {
+  margin: $pirate-margin-p;
+
+}
+
+.philosopher {
+  padding: $pirate-padding-phil;
+}
+
