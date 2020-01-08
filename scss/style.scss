@@ -1,0 +1,12 @@
+$pirate-fonts: "Arial, Helvetica, sans-serif sans-serif";
+
+h1 {
+  font-family: $pirate-fonts;
+  font-weight: 600;
+
+  color: #000;
+
+  &:hover {
+    color: darkmagenta;
+  }
+}

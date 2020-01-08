@@ -1,0 +1,19 @@
+{
+  "name": "007_sass_project",
+  "version": "1.0.0",
+  "description": "some sass test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "dart-sass --watch scss/style.scss style.css --style compressed"
+  },
+  "author": "bernd",
+  "license": "ISC",
+  "keywords": [
+    "scss",
+    "css"
+  ],
+  "devDependencies": {
+    "dart-sass": "^1.24.3"
+  }
+}
